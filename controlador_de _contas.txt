@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int ganhos (int num[], int m){
+    int resultado;
+
+    resultado = num[m] + num[m];
+    
+    return resultado;
+}
+int gastos(int num[], int n){
+    int resultado;
+    
+    resultado = num[n] - num[n];
+    
+    return resultado;
+}
+
+int main (void){
+
+char nome[15], sobrenome[15];
+int ganho, gasto, i, j, opcao;
+
+printf("Seja Bem vindo!");
+
+do{
+    printf("\n--------------------------\n");
+    printf("Para controlar os seus ganhos e gastos, primeiro informe os seus dados. \n");
+    printf("Informe o seu nome:\n");
+    scanf(" %s", &nome[15]);
+    printf("\nAgora infome o seu sobrenome:\n");
+    scanf(" %s", &sobrenome[15]);
+    printf("PRONTO, %s %s AGORA VAMOS CALCULAR OS SEUS GANHOS E GASTOS!", nome, sobrenome);
+
+    
+    
+    
+    
+    
+    
+    }while(opcao);
+
+
+
+return 0;    
+}
